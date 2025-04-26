@@ -7,9 +7,6 @@ export default defineConfig({
     host: true,   // <-- this allows connections from anywhere (0.0.0.0)
     port: 5173,
     strictPort: true,
-    allowedHosts: [
-      'dockertest-carsaele.onrender.com',
-      'a293a0287d15-10-244-3-8-5173.papa.r.killercoda.com'
-    ]
+    allowedHosts: []
   }
 })

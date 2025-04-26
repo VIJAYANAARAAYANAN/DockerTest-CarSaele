@@ -8,7 +8,8 @@ export default defineConfig({
     port: 5173,
     strictPort: true,
     allowedHosts: [
-      'dockertest-carsaele.onrender.com' 
+      'dockertest-carsaele.onrender.com',
+      'a293a0287d15-10-244-3-8-5173.papa.r.killercoda.com'
     ]
   }
 })

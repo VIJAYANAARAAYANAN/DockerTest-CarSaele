@@ -7,6 +7,6 @@ export default defineConfig({
     host: true,   // <-- this allows connections from anywhere (0.0.0.0)
     port: 5173,
     strictPort: true,
-    allowedHosts: []
+    allowedHosts: true
   }
 })
